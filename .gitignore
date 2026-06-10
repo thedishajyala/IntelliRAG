@@ -1,0 +1,94 @@
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+lib/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Python Bytecode, Compiles, and Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Large ML Models & GGUF binaries (Local Prototypes)
+# ==========================================
+models/
+*.gguf
+*.bin
+*.pt
+*.onnx
+
+# ==========================================
+# Local Caches & Serialized Vector Stores
+# ==========================================
+cache/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pkl
+*.faiss
+*.index
+
+# ==========================================
+# Environment Configuration & Secrets
+# ==========================================
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env.test
+.env.*.local
+
+# ==========================================
+# System Logs & Databases
+# ==========================================
+*.log
+*.sqlite
+*.db
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
