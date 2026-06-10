@@ -1,4 +1,4 @@
-# 🧠 IntelliRAG
+#  IntelliRAG
 
 **Your smart, chat-based PDF assistant.**
 
@@ -6,7 +6,7 @@ IntelliRAG lets you upload your PDFs and ask questions about them. It reads the 
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Upload & Ask:** Just drag-and-drop a PDF and start chatting!
 - **Accurate Answers:** IntelliRAG strictly sticks to what's in your document.
@@ -15,7 +15,7 @@ IntelliRAG lets you upload your PDFs and ask questions about them. It reads the 
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Set Up Your API Key
 Create a `.env` file in the main folder and add your Gemini API Key:
