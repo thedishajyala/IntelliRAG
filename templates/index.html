@@ -533,7 +533,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            color: var(--text-muted);
+            color: #e5e7eb;
             text-align: center;
             gap: 16px;
         }
@@ -557,9 +557,10 @@
         }
 
         .chat-empty p {
-            font-size: 0.9rem;
-            max-width: 300px;
-            line-height: 1.5;
+            font-size: 1rem;
+            max-width: 320px;
+            line-height: 1.6;
+            font-weight: 400;
         }
 
         /* --- INPUT CONTROL BAR --- */
@@ -852,8 +853,8 @@
             {% if not history %}
                 <div class="chat-empty">
                     <i data-lucide="message-square-dashed" size="54"></i>
-                    <h3>Interactive Playground</h3>
-                    <p>Deploy a document in the library sidebar, then submit your questions here to begin grounding queries.</p>
+                    <h3>Ready to assist</h3>
+                    <p>Upload a PDF document from the sidebar to get started. You can then ask questions and get answers directly from your file.</p>
                 </div>
             {% endif %}
         </div>
@@ -862,7 +863,7 @@
         <section class="input-bar">
             <form method="post" id="chatForm">
                 <div class="input-container">
-                    <input type="text" name="question" placeholder="Ask a question about the indexed document context..." required autocomplete="off" id="chatInputField">
+                    <input type="text" name="question" placeholder="Ask a question about your documents..." required autocomplete="off" id="chatInputField">
                     <button type="submit" class="btn-send" id="btnSend">
                         <i data-lucide="send" size="18"></i>
                     </button>
